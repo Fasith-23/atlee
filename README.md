@@ -18,12 +18,9 @@ Before you begin, make sure you have the following installed:
    ```bash
     python -m venv venv
 3. Activate the virtual environment:
-a. On macOS/Linux:
+    On macOS/Linux:
    ```bash
     source venv/bin/activate
-b. On Windows:
-   ```bash
-    venv\Scripts\activate
 
 4. Install the required dependencies:
    ```bash
@@ -33,7 +30,10 @@ b. On Windows:
 1. Navigate to the frontend directory:
     ```bash
      cd atlee_next
-2. Run the app
+2. Install the required npm dependencies:
+   ```bash
+    npm install
+3. Run the app
      ```bash
       npm run dev
 
