@@ -24,7 +24,16 @@ a. On macOS/Linux:
 b. On Windows:
    ```bash
     venv\Scripts\activate
+
 4. Install the required dependencies:
    ```bash
     pip install -r requirements.txt
+
+## Frontend Setup
+1. Navigate to the frontend directory:
+    ```bash
+     cd atlee_next
+2. Run the app
+     ```bash
+      npm run dev
 
